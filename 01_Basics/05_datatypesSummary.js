@@ -35,3 +35,15 @@ console.log(typeof outsideTemp);
 console.log(typeof bigNumber);
 console.log(typeof myFunction);
 
+
+
+
+//*******************************************************************
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Rahulchaudhary"
+
+let anotherName = myName
+anotherName = "Chaudharyrahul"
+console.log(myName)
+console.log(anotherName);
